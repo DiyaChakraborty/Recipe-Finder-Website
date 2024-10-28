@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+        <li><a href="#search">Home</a></li>
+        <li><a href="#recipe-moods">Recipe Moods</a></li>
+        <li><a href="#daily-recipe">Daily Recipe</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header with Search -->
+    <header id="search">
+        <h1>BiteQuest</h1>
+        <div class="search-container">
+            <input type="text" id="meal-input" placeholder="Search for a meal...">
+            <button onclick="searchMeal()">Search&#x1F50D;</button>
+        </div>
+    </header>
+
+    <!-- Mood-based Recipe Section -->
+    <section id="recipe-moods">
+        <h2>Find Recipes by Mood 🍨🥗🍝🍔</h2>
+        <div class="mood-buttons">
+            <button onclick="showRecipes('comfort')">Comfort Food</button>
+            <button onclick="showRecipes('light')">Light & Fresh</button>
+            <button onclick="showRecipes('quick')">Quick & Easy</button>
+            <button onclick="showRecipes('adventurous')">Feeling Adventurous</button>
+        </div>
+        <div id="mood-results"></div>
+    </section>
+<br><br><br>
+
+ <!-- Meal Details Section (displayed above daily recipe section) -->
+    <section id="meal-details" class="meal-details">
+        <div id="recipe-anchor"></div>
+    </section>
+    <br><br>
+    <!-- Daily Recipe Feature -->
+    <section id="daily-recipe">
+        <center><h2>Recipe of the Day😋</h2></center>
+        <div id="daily-recipe-content"></div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us &#128233;</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <center><input type="text" id="name" required></center>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" 1000 words required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Meal Finder</p>
+        <p><a href="#search">Back to Top</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
