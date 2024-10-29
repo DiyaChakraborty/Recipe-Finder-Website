@@ -1,5 +1,7 @@
 # BiteQuest - Recipe Finder Website
 
+![BiteQuest Banner](https://github.com/DiyaChakraborty/Recipe-Finder-Website/blob/f9deb784d8567ab2771505f5d6f6c0410b376f06/Screenshot%202024-10-29%20164946.png)
+
 ## Project Overview
 BiteQuest is a modern recipe-finding website that simplifies meal choices by providing users with an extensive range of recipes tailored to their preferences. By utilizing the MealDB API, BiteQuest makes it easy to discover new dishes, get inspired by daily highlights, and explore various meal categories, all in one user-friendly platform.
 
