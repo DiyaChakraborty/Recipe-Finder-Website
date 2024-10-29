@@ -1,4 +1,4 @@
-# BiteQuest - Recipe Finder Website
+# BiteQuest 😋 
 
 ![BiteQuest Banner](https://github.com/DiyaChakraborty/Recipe-Finder-Website/blob/f9deb784d8567ab2771505f5d6f6c0410b376f06/Screenshot%202024-10-29%20164946.png)
 
