@@ -244,7 +244,19 @@ const cookingTips = [
   "Use a bit of lemon juice to prevent apples from browning.",
   "Marinate meat overnight for maximum flavor infusion.",
   "Toast spices to release their full aroma before using.",
-  // ... 50+ cooking tips ...
+  "Use a silicone baking mat for easy release and browning in baking.",
+    "Add ice cubes to soups or sauces to remove excess oil easily.",
+    "Use cornstarch or flour to thicken sauces to the perfect consistency.",
+    "Grate frozen butter for easier mixing in pastries like biscuits or scones.",
+    "Soak potatoes in water before frying to remove excess starch.",
+    "Add a touch of soy sauce to gravies for an umami boost.",
+    "Rest dough for at least 10 minutes before rolling to make it easier to handle.",
+    "Use wine, beer, or broth to replace water in savory dishes for more flavor.",
+    "Add a sprinkle of salt to coffee grounds to reduce bitterness.",
+    "For a richer taste, cook pasta in broth instead of water.",
+    "Let cooked dishes sit for a few minutes to allow flavors to meld.",
+    "Store bread in a paper bag to keep it from getting soggy.",
+    "Add vinegar to boiling eggs to make peeling easier.",
 ];
 
 // Function to get a random cooking tip
@@ -260,7 +272,7 @@ function showRecipes(mood) {
   // Pick a random meal from the selected category
   const randomMeal = options[Math.floor(Math.random() * options.length)];
 
-  // Display the random meal in the mood-results section
+  // Displaying the random meal in the mood-results section
   moodResults.innerHTML = `
         <h3>In the mood for ${
           mood === "comfort"
